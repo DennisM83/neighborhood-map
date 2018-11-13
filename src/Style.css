@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/******* Top Nav **********/
+
+#topbar {
+    color: #F9F9F9;
+    display: flex;
+    width: 100%;
+}
+
+/******* Side Menu *******/
+
+#navMenu {
+    opacity: 0.9;
+    display: flex;
+    color: #F9F9F9;
+    flex-flow: column;
+    max-width: 250px;
+    float: left;
+    margin: 0;
+    height: 100vh;
+    overflow: scroll;
+}
+
+#navbar-span {
+    margin: 0 10px 0 10px;
+    padding: 20px 0 20px 0;
+}
+
+ul > li {
+    padding: 15px 0 15px 0;
+    cursor: pointer;
+    border: 1px #F9F9F9 solid;
+    border-radius: 15px;
+}
+
+
+/******** MAP ***********/
+
+#fourInfo {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+#fourTitle {
+    color: #E83766;
+}
+
+#errorMess {
+    padding-top: 150px;
+    color: #000;
+}
